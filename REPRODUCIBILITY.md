@@ -34,8 +34,10 @@ Source receipts:
 `Bachris_Software/data/reports/three_class_head_provenance.json` and
 `Bachris_Software/data/reports/calibration_quality.json`.
 
-No locked-test contents, message-level predictions, or row-level identifiers
-are released. No locked scoring should be repeated to build this documentation.
+The later CSV addition includes redacted French text from the original locked
+allocation, alongside training and calibration. It does not release model
+predictions or original record identifiers. The files were read only for export,
+not rescored. No locked scoring should be repeated to build this release.
 
 ## Reconstruction is limited
 
