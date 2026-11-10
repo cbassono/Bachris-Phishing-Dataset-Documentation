@@ -1,11 +1,28 @@
-# Bachris phishing research — dataset documentation
+# Bachris phishing research — French dataset and documentation
 
-**Documentation-only public release. No email text is distributed.**
+**Downloadable redacted French text export, with dataset documentation.**
+
+## Download the French CSV
+
+[Download translated_french_redacted.csv](https://raw.githubusercontent.com/cbassono/Bachris-Phishing-Dataset-Documentation/main/data/translated_french_redacted.csv)
+
+The UTF-8 CSV contains **5,732 stored French translations**, including subject
+and body text, reference labels, source, and original study split:
+
+- **Training:** 3,361 records.
+- **Calibration:** 891 records.
+- **Locked test:** 1,480 records.
+
+Email addresses and detected credential-like strings were redacted. See
+[export notes](FRENCH_CSV_EXPORT.md) for all transformations and limitations.
+This is a text-bearing, redacted derivative, **not an exact benchmark copy**.
+The presence of a public download does not establish blanket redistribution
+permission or a license for every source. Underlying rights remain as documented.
 
 This repository documents the sources, allocations, translated-French versions,
-and reuse boundaries of the Bachris phishing-detector research. It is not a new
-email corpus, not an independently validated benchmark, and not permission to
-redistribute the underlying messages.
+and reuse boundaries of the Bachris phishing-detector research, and supplies a
+redacted export of its original French allocations. It is not a new independent
+email collection or independently validated benchmark.
 
 Related software: https://github.com/cbassono/Bachris-LLM-PhishSolution
 
@@ -20,6 +37,7 @@ Related software: https://github.com/cbassono/Bachris-LLM-PhishSolution
 - [Methods and reproducibility](REPRODUCIBILITY.md): fitting/CV roles and
   source-pool fingerprints already recorded in the project.
 - [Rights and privacy](RIGHTS_AND_PRIVACY.md): exclusions and redistribution limits.
+- [CSV export notes](FRENCH_CSV_EXPORT.md): columns, redaction counts, and safety.
 - `SHA256SUMS`: checksums of the public documentation files.
 
 ## Original-study language versions
@@ -56,7 +74,9 @@ headers, attachments, or translations. Some catalogue entries have unresolved
 source links or content rights; these are explicitly identified rather than
 guessed.
 
-The aggregate documentation was assembled from existing saved evidence.
-No training, cross-validation, translation, scoring, or locked-test access was
-performed to prepare this release. Original study/model artifacts were not
-changed. Exact message-level reconstruction is not provided by this repository.
+The documentation was assembled from existing saved evidence. Preparing the CSV
+read the stored French training, calibration, and locked-test files solely for
+export and text screening. No training, cross-validation, new translation, model
+inference, or evaluation metrics were run. Source-file hashes were unchanged
+before and after export. This exposes previously used study data; it does not
+create a fresh unseen validation set.
