@@ -2,9 +2,10 @@
 
 ## Release decision
 
-The author selected a **documentation-only** public repository. All raw email
-and translated email text remains outside this release, including material
-that is already downloadable elsewhere.
+The repository initially contained documentation only. The author subsequently
+requested a downloadable CSV containing the actual French dataset. A redacted
+copy of the original **5,732 French subject/body records** is now provided;
+the original research files remain unchanged and are not copied wholesale.
 
 The existing project rights account does not establish blanket message-content
 redistribution permission for all original sources. Translations are not a
@@ -13,23 +14,35 @@ policies do not necessarily license third-party message content.
 
 ## Excluded material
 
-- English and French subjects and message bodies.
+- English subjects and bodies; unredacted French originals.
 - Sender/recipient addresses, message IDs, identifying headers and signatures.
 - Attachments, URLs extracted from individual messages, and raw email archives.
 - Row-level identifiers, parent mappings, raw translation logs, and reviewer data.
 - Manuscripts, private correspondence, credentials, model files, and predictions.
 - Workspace history and unrelated project files.
 
-Only the explicitly prepared documentation files are uploaded. The existing
-software repository and its history are not copied into this new repository.
+Only explicitly prepared documentation and the screened French CSV are uploaded.
+The existing software repository and its history are not copied into this
+repository. A pattern-based screen is not complete anonymization: names,
+organizations, technical details, URLs, and other identifying information may
+remain in French text. See the export notes before reuse.
 
 ## Upstream terms
 
-The catalogue reports the existing audit's unresolved rights findings; it is
-not a fresh legal determination or permission grant. Verify current publisher
-terms and underlying rights before obtaining, translating, or distributing
-source material. Do not send archived phishing or legitimate mail through
-live mail systems as a testing method.
+Phishing Pot declares CC BY-NC 4.0; its dataset card requests attribution to
+https://github.com/rf-peixoto/phishing_pot and
+https://www.linkedin.com/in/rf-peixoto. Nazario declares CC BY 4.0 at
+https://monkey.org/~jose/phishing/README. French translation, text redaction,
+and CSV formatting are changes made for this release; no upstream endorsement
+is implied. Preserve applicable notices and restrictions.
+
+E-PhishLLM and mailing-list content do not have a verified blanket permission
+for this translated release in the project review. Publication at the author's
+request is not evidence that those permissions have been obtained. No single
+open-data license is claimed for the mixed-source CSV. Obtain appropriate
+permissions or institutional legal guidance for intended reuse.
+
+Do not send archived phishing or legitimate mail through live mail systems.
 
 This release does not assign a blanket license to upstream data. No new
 open-content license is selected on the author's behalf for this documentation;
