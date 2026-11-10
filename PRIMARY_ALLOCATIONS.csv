@@ -1,0 +1,43 @@
+source,cell,language,role,records
+E-PhishLLM type 1,A,en,training,600
+E-PhishLLM type 1,A,en,calibration,150
+E-PhishLLM type 1,A,en,locked_test,250
+E-PhishLLM type 1,A,fr_translated,training,600
+E-PhishLLM type 1,A,fr_translated,calibration,150
+E-PhishLLM type 1,A,fr_translated,locked_test,250
+E-PhishLLM type 0,C,en,training,1200
+E-PhishLLM type 0,C,en,calibration,300
+E-PhishLLM type 0,C,en,locked_test,500
+E-PhishLLM type 0,C,fr_translated,training,1200
+E-PhishLLM type 0,C,fr_translated,calibration,300
+E-PhishLLM type 0,C,fr_translated,locked_test,500
+Phishing Pot,B,en,training,600
+Phishing Pot,B,en,calibration,150
+Phishing Pot,B,en,locked_test,249
+Phishing Pot,B,fr_translated,training,144
+Phishing Pot,B,fr_translated,calibration,150
+Phishing Pot,B,fr_translated,locked_test,247
+Nazario,B,en,training,0
+Nazario,B,en,calibration,0
+Nazario,B,en,locked_test,0
+Nazario,B,fr_translated,training,456
+Nazario,B,fr_translated,calibration,0
+Nazario,B,fr_translated,locked_test,0
+Apache Tomcat users,D,en,training,400
+Apache Tomcat users,D,en,calibration,100
+Apache Tomcat users,D,en,locked_test,163
+Apache Tomcat users,D,fr_translated,training,230
+Apache Tomcat users,D,fr_translated,calibration,64
+Apache Tomcat users,D,fr_translated,locked_test,173
+GNU Emacs developers,D,en,training,400
+GNU Emacs developers,D,en,calibration,100
+GNU Emacs developers,D,en,locked_test,166
+GNU Emacs developers,D,fr_translated,training,410
+GNU Emacs developers,D,fr_translated,calibration,135
+GNU Emacs developers,D,fr_translated,locked_test,181
+Python list,D,en,training,400
+Python list,D,en,calibration,100
+Python list,D,en,locked_test,167
+Python list,D,fr_translated,training,321
+Python list,D,fr_translated,calibration,92
+Python list,D,fr_translated,locked_test,129
