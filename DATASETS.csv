@@ -1,7 +1,7 @@
 source_id,source_name,role,public_source_reference,reference_status,redistribution_status
-ephishllm,E-PhishLLM released with E-PhishGen,Original A/C and later positive-only diagnostic,https://github.com/pajola/e-phishGen,Recorded upstream repository,Message-content permission not established; no text included
-phishing_pot,Phishing Pot,Original B,https://github.com/rf-peixoto/phishing_pot,Recorded upstream repository,Repository CC BY-NC 4.0 coverage of third-party messages unresolved; no text included
-nazario,Nazario phishing corpus,Translated-French B training and PhishFuzzer component,https://monkey.org/~jose/phishing/,Recorded publisher archive,README grant does not resolve all underlying message rights; no text included
+ephishllm,E-PhishLLM released with E-PhishGen,Original A/C and later positive-only diagnostic,https://github.com/pajola/e-phishGen,Recorded upstream repository,French redacted text exported at author request; blanket redistribution permission unverified
+phishing_pot,Phishing Pot,Original B,https://github.com/rf-peixoto/phishing_pot,Recorded upstream repository and dataset card,CC BY-NC 4.0 declared; French redacted derivative included; attribution and noncommercial restrictions apply
+nazario,Nazario phishing corpus,Translated-French B training and PhishFuzzer component,https://monkey.org/~jose/phishing/,Recorded publisher archive and README,CC BY 4.0 declared; French redacted derivative included; attribution and other applicable rights apply
 apache,Apache Tomcat users archive,Original D,https://lists.apache.org/,Publisher archive portal; exact acquisition slices not provided,No blanket message-content redistribution grant established
 gnu,GNU Emacs development archive,Original D,https://lists.gnu.org/archive/html/emacs-devel/,Publisher archive portal; exact acquisition slices not provided,No blanket message-content redistribution grant established
 python,Python-list archive,Original D and later historical training reuse,https://mail.python.org/pipermail/python-list/,Publisher archive portal; exact acquisition slices not provided,No blanket message-content redistribution grant established
