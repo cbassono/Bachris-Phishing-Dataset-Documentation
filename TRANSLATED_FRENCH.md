@@ -49,10 +49,12 @@ this documentation does not certify global cross-language contamination freedom.
 
 ## What is public
 
-Counts, source descriptions, processing descriptions, and aggregate provenance.
-**No translated subjects, bodies, headers, attachments, row-level parent IDs,
-or private reviewer material are included.** No project-wide total covering
-every translation retry and later variant is certified here.
+Counts, source descriptions, processing descriptions, aggregate provenance, and
+a redacted CSV of the **5,732 original French subjects and bodies** are public.
+See [CSV export notes](FRENCH_CSV_EXPORT.md). Headers, attachments, original row
+IDs, parent mappings, and private reviewer material are excluded. New sequential
+release IDs identify CSV rows, not original messages. No project-wide total
+covering every translation retry and later variant is certified here.
 
 ## Evidence
 
